@@ -168,154 +168,210 @@ Download the ultimate HTML cheat sheet for quick reference during coding.
         ]
     },
     {
-        title: 'JavaScript Essentials',
-        slug: 'javascript',
-        description: 'The programming language of the web.',
+        title: 'JavaScript Mastery (ES6+)',
+        slug: 'javascript-mastery',
+        description: 'Master Modern JavaScript from Scratch to Advanced concepts. Includes 20+ Real-world Projects and PDF Notes.',
         category: 'Programming',
         level: 'Intermediate',
         price: 0,
-        thumbnail: 'https://dummyimage.com/600x400/007bff/ffffff&text=JavaScript',
+        thumbnail: 'https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=600',
         modules: [
             {
-                title: 'JavaScript Basics',
+                title: 'Basics & Fundamentals',
                 lessons: [
                     {
-                        title: 'Variables & Data Types',
-                        content: `
-### Variables
-Variables are containers for storing data.
+                        title: 'Variables, Data Types & Operators',
+                        content: `### Getting Started with JS
+JavaScript is the brain of the web.
 
-#### Declaring Variables:
-- \`let\`: Block-scoped variable (can be reassigned).
-- \`const\`: Block-scoped constant (cannot be reassigned).
-- \`var\`: Function-scoped (legacy).
+#### Key Concepts:
+- \`let\`, \`const\`, \`var\`
+- Primitive types (String, Number, Boolean, null, undefined)
+- Arithmetic & Logical Operators
 
-#### Example:
-\`\`\`javascript
-let name = "John";
-const pi = 3.14;
-let isStudent = true;
-
-console.log(name, pi, isStudent);
-\`\`\`
-                        `,
+**Download PDF Notes:** [JavaScript Basics - Ashok Technologies](https://github.com/marriashok/ashoktechnolgies/raw/main/materials/js_basics.pdf)`,
                         type: 'text',
-                        duration: '15 mins'
+                        duration: '30 mins'
                     },
                     {
-                        title: 'Functions',
-                        content: `
-### Functions
-Functions are blocks of code designed to perform a particular task.
-
-#### Arrow Functions (ES6):
-Arrow functions provide a shorter syntax.
-
-#### Example:
-\`\`\`javascript
-// Traditional Function
-function add(a, b) {
-    return a + b;
-}
-
-// Arrow Function
-const multiply = (x, y) => x * y;
-
-console.log(add(5, 3));      // Output: 8
-console.log(multiply(4, 2)); // Output: 8
-\`\`\`
-                        `,
+                        title: 'Control Flow & Loops',
+                        content: `### Logic in JS
+- If/Else statements
+- Switch cases
+- For, While, and Do-While loops`,
                         type: 'text',
-                        duration: '20 mins'
+                        duration: '40 mins'
                     }
                 ]
             },
             {
-                title: 'DOM & Events',
+                title: 'Advanced ES6+ Features',
                 lessons: [
                     {
-                        title: 'DOM Manipulation',
-                        content: `
-### Document Object Model (DOM)
-The DOM allows JavaScript to change values of HTML elements.
-
-#### Selecting Elements:
-- \`document.getElementById('id')\`
-- \`document.querySelector('.class')\`
-
-#### Example:
-\`\`\`javascript
-// Change text of an element
-const header = document.querySelector('h1');
-header.innerText = "Hello World!";
-
-// Change style
-header.style.color = "blue";
-\`\`\`
-                        `,
+                        title: 'Arrow Functions & Template Literals',
+                        content: `### Modern Syntax
+Learn ES6 shorthand syntax for cleaner code.`,
                         type: 'text',
                         duration: '25 mins'
+                    },
+                    {
+                        title: 'Destructuring, Spread & Rest',
+                        content: `### Array & Object Handling
+Powerful ES6 features for data manipulation.`,
+                        type: 'text',
+                        duration: '30 mins'
+                    }
+                ]
+            },
+            {
+                title: '20 JavaScript Practice Projects',
+                lessons: [
+                    {
+                        title: 'JS Projects 1-10',
+                        content: `### Beginner JS Projects
+1. **Clock App** - Digital & Analog.
+2. **Calculator** - Complete functionality.
+3. **To-Do List** - LocalStorage integration.
+4. **Weather App** - Fetching API data.
+5. **Rock Paper Scissors** - Game logic.
+6. **Quote Generator** - Randomized data.
+7. **Expense Tracker** - Math operations.
+8. **Quiz App** - Conditional logic.
+9. **Password Generator** - String manipulation.
+10. **Countdown Timer** - Date & Time objects.
+
+**Project Source Code:** [JS Repository](https://github.com/marriashok/ashoktechnolgies/tree/main/projects/js)`,
+                        type: 'text',
+                        duration: '150 mins'
+                    },
+                    {
+                        title: 'JS Projects 11-20',
+                        content: `### Intermediate JS Projects
+11. **Music Player** - Audio manipulation.
+12. **Recipe Search** - Using External APIs.
+13. **Currency Converter** - Real-time rates.
+14. **Movie Database** - Search and Filter.
+15. **Drag & Drop List** - Event handling.
+16. **Infinite Scroll** - DOM manipulation.
+17. **Form Validator** - Regex & logic.
+18. **Kanban Board** - State management basics.
+19. **Video Player** - Custom controls.
+20. **E-commerce Cart** - Object-oriented logic.`,
+                        type: 'text',
+                        duration: '180 mins'
+                    }
+                ]
+            },
+            {
+                title: 'PDF Resources',
+                lessons: [
+                    {
+                        title: 'Master JS Notes',
+                        content: `[Complete JS Handbook PDF](https://github.com/marriashok/ashoktechnolgies/raw/main/materials/js_full_notes.pdf)`,
+                        type: 'text',
+                        duration: '5 mins'
                     }
                 ]
             }
         ]
     },
     {
-        title: 'React.js Frontend Development',
-        slug: 'react-js',
-        description: 'Build modern single-page applications with React.',
+        title: 'React JS Professional',
+        slug: 'react-professional',
+        description: 'Build robust, scalable web applications with React. Includes Hooks, Context API, Redux and 20 Projects.',
         category: 'Frontend',
-        level: 'Intermediate',
+        level: 'Advanced',
         price: 0,
-        thumbnail: 'https://dummyimage.com/600x400/007bff/ffffff&text=React.js',
+        thumbnail: 'https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=600',
         modules: [
             {
-                title: 'Components',
+                title: 'React Core Concepts',
                 lessons: [
                     {
-                        title: 'Functional Components',
-                        content: `
-### Creating Components
-Components are the building blocks of React applications.
+                        title: 'JSX & Components',
+                        content: `### Think in React
+Fundamental building blocks of React.
 
-#### Example:
-\`\`\`jsx
-const Welcome = ({ name }) => {
-  return <h1>Hello, {name}</h1>;
-};
-\`\`\`
-                        `,
+**Download PDF Notes:** [React Fundamentals - Ashok Technologies](https://github.com/marriashok/ashoktechnolgies/raw/main/materials/react_intro.pdf)`,
                         type: 'text',
-                        duration: '15 mins'
+                        duration: '45 mins'
+                    },
+                    {
+                        title: 'Props & State Management',
+                        content: `### Data Flow
+Learn how data moves in React applications.`,
+                        type: 'text',
+                        duration: '50 mins'
                     }
                 ]
             },
             {
-                title: 'Hooks',
+                title: 'Power of Hooks',
                 lessons: [
                     {
-                        title: 'useState Hook',
-                        content: `
-### Managing State
-useState allows you to add state to functional components.
-
-#### Example:
-\`\`\`jsx
-import { useState } from 'react';
-
-const Counter = () => {
-  const [count, setCount] = useState(0);
-
-  return (
-    <button onClick={() => setCount(count + 1)}>
-      Count: {count}
-    </button>
-  );
-};
-\`\`\`
-                        `,
+                        title: 'useState & useEffect',
+                        content: `### Managing Lifecycle
+Master the most important React Hooks.`,
                         type: 'text',
-                        duration: '20 mins'
+                        duration: '60 mins'
+                    },
+                    {
+                        title: 'Custom Hooks & Optimization',
+                        content: `### Pro Techniques
+Learn to write reusable logic.`,
+                        type: 'text',
+                        duration: '45 mins'
+                    }
+                ]
+            },
+            {
+                title: '20 React Practice Projects',
+                lessons: [
+                    {
+                        title: 'React Projects 1-10',
+                        content: `### Getting Started with React Projects
+1. **Task Manager** - CRUD operations.
+2. **Personal Portfolio** - Component based.
+3. **Blog Platform** - Router integration.
+4. **E-commerce Dashboard** - State management.
+5. **Social Media Feed** - UI components.
+6. **Notes App** - Persisting data.
+7. **Movie Recommendation** - API usage.
+8. **Fitness Tracker** - Charts & Data.
+9. **Real-time Chat** - Firebase/Socket.io intro.
+10. **Recipe Browser** - Complex filtering.
+
+**Project Source Code:** [React Repository](https://github.com/marriashok/ashoktechnolgies/tree/main/projects/react)`,
+                        type: 'text',
+                        duration: '200 mins'
+                    },
+                    {
+                        title: 'React Projects 11-20',
+                        content: `### Professional React Apps
+11. **Job Board** - Search and apply.
+12. **Learning Management System** - Nested routes.
+13. **Finance Tracker** - Context API usage.
+14. **Custom CMS** - Form handling.
+15. **Crypto Dashboard** - Polling API.
+16. **Admin Panel** - High-level layouts.
+17. **Multistep Form** - Complex state.
+18. **Quiz Master** - Game state.
+19. **Portofolio with 3D** - Three.js integration.
+20. **Full Stack MERN App** - Complete project.`,
+                        type: 'text',
+                        duration: '300 mins'
+                    }
+                ]
+            },
+            {
+                title: 'Resource Library',
+                lessons: [
+                    {
+                        title: 'React Developer PDF Bundle',
+                        content: `[React Interview Questions PDF](https://github.com/marriashok/ashoktechnolgies/raw/main/materials/react_interview.pdf)
+[React Best Practices Guide](https://github.com/marriashok/ashoktechnolgies/raw/main/materials/react_best_practices.pdf)`,
+                        type: 'text',
+                        duration: '10 mins'
                     }
                 ]
             }
