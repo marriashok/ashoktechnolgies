@@ -13,9 +13,11 @@ const Navigation = () => {
     };
 
     return (
-        <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
+        <Navbar variant="dark" expand="lg" collapseOnSelect className="py-3 sticky-top">
             <Container>
-                <Navbar.Brand as={Link} to="/">Ashok Technologies</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/" className="fw-bold fs-3 text-white">
+                    <span style={{ color: 'var(--primary)' }}>ASHOK</span> TECHNOLOGIES
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">

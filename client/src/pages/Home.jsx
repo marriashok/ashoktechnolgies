@@ -23,19 +23,23 @@ const Home = () => {
     return (
         <div>
             {/* Hero Section */}
-            <div className="bg-dark text-white py-5 mb-5 text-center" style={{ backgroundImage: 'linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                <Container className="py-5">
-                    <h1 className="display-3 fw-bold underline-gold">Ashok Technologies</h1>
-                    <p className="lead mb-4 fs-3">Learn HTML, CSS, JavaScript, React, Node.js, Python, SQL, and more!</p>
-                    <div className="d-flex justify-content-center gap-3">
+            <div className="hero-gradient text-white py-5 mb-5 text-center position-relative overflow-hidden" style={{ minHeight: '600px', display: 'flex', alignItems: 'center' }}>
+                <Container className="py-5 position-relative" style={{ zIndex: 2 }}>
+                    <h1 className="display-2 fw-bold underline-gold mb-3">Ashok Technologies</h1>
+                    <p className="lead mb-5 fs-3 text-secondary" style={{ maxWidth: '800px', margin: '0 auto' }}>
+                        Mastering the future of tech. Learn HTML, React, Node.js, Python, and SQL with industry experts.
+                    </p>
+                    <div className="d-flex justify-content-center gap-4">
                         <Link to="/courses">
-                            <Button variant="primary" size="lg" className="px-5">Explore Courses</Button>
+                            <Button variant="primary" size="lg" className="px-5 py-3 shadow-lg">Start Learning Now</Button>
                         </Link>
                         <Link to="/practice">
-                            <Button variant="outline-light" size="lg" className="px-5">Practice Coding</Button>
+                            <Button variant="outline-light" size="lg" className="px-5 py-3">Try Code Editor</Button>
                         </Link>
                     </div>
                 </Container>
+                {/* Visual elements */}
+                <div className="position-absolute top-0 start-0 w-100 h-100" style={{ opacity: 0.1, backgroundImage: 'url("https://www.transparenttextures.com/patterns/carbon-fibre.png")' }}></div>
             </div>
 
             {/* Featured Courses */}
