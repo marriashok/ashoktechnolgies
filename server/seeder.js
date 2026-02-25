@@ -49,100 +49,119 @@ const courses = [
         ]
     },
     {
-        title: 'Web Design: HTML, CSS, Bootstrap',
-        slug: 'web-design',
-        description: 'Build responsive websites from scratch. Master the core technologies of the web.',
+        title: 'HTML & Web Design Mastery',
+        slug: 'html-mastery',
+        description: 'Complete HTML5 & CSS3 course with 20+ Practice Projects, PDF Notes, and Professional Templates.',
         category: 'Frontend',
         level: 'Beginner',
         price: 0,
-        thumbnail: 'https://dummyimage.com/600x400/007bff/ffffff&text=Web+Design',
+        thumbnail: 'https://images.pexels.com/photos/1591060/pexels-photo-1591060.jpeg?auto=compress&cs=tinysrgb&w=600',
         modules: [
             {
-                title: 'HTML5 Fundamentals',
+                title: 'HTML5 Foundations',
                 lessons: [
                     {
-                        title: 'Semantic Structure',
-                        content: `
-### Understanding Semantic HTML
-Semantic HTML introduces tags with meaning, such as <header>, <footer>, <article>, and <section>.
+                        title: 'Introduction to HTML5',
+                        content: `### Welcome to HTML Mastery
+HTML (HyperText Markup Language) is the backbone of every website.
 
-#### Key Benefits:
-1. **SEO**: Search engines understand your content better.
-2. **Accessibility**: Screen readers can navigate easily.
-3. **Maintainability**: Code is easier to read.
+#### Key Topics:
+- History of HTML
+- Environment Setup (VS Code)
+- Document Structure (Doctype, Head, Body)
+- Basic Tags (h1-h6, p, br, hr)
 
-#### Example:
-\`\`\`html
-<article>
-  <header>
-    <h1>Article Title</h1>
-  </header>
-  <p>Content goes here...</p>
-</article>
-\`\`\`
-                    `,
-                        type: 'text',
-                        duration: '15 mins'
-                    },
-                    {
-                        title: 'Forms & Inputs',
-                        content: `
-### Building Forms
-Forms are essential for user interaction.
-
-#### Common Input Types:
-- \`<input type="text">\`: Single line text
-- \`<input type="email">\`: Email validation
-- \`<input type="password">\`: Masked characters
-
-#### Example:
-\`\`\`html
-<form>
-  <label>Email:</label>
-  <input type="email" required>
-  <button type="submit">Send</button>
-</form>
-\`\`\`
-                    `,
+**Download PDF Notes:** [HTML Introduction - Ashok Technologies](https://github.com/marriashok/ashoktechnolgies/raw/main/materials/html_intro.pdf)`,
                         type: 'text',
                         duration: '20 mins'
+                    },
+                    {
+                        title: 'HTML Elements & Attributes',
+                        content: `### Elements and Attributes
+Learn how to use attributes like src, href, alt, and id.
+
+#### Example:
+\`\`\`html
+<a href="https://google.com" target="_blank">Google Search</a>
+<img src="logo.png" alt="Company Logo" width="100">
+\`\`\``,
+                        type: 'text',
+                        duration: '30 mins'
                     }
                 ]
             },
             {
-                title: 'CSS3 Styling',
+                title: 'Advanced HTML Features',
                 lessons: [
                     {
-                        title: 'Flexbox Layout',
-                        content: `
-### CSS Flexbox
-Flexbox makes it easy to align elements.
+                        title: 'Forms and Validations',
+                        content: `### Advanced Forms
+Master form controls, inputs, and validation.
 
-#### Key Properties:
-- \`display: flex;\`: Enables flexbox.
-- \`justify-content\`: Aligns horizontally (e.g., center, space-between).
-- \`align-items\`: Aligns vertically.
-
-#### Example:
-\`\`\`css
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-\`\`\`
-                        `,
+#### PDF Material:
+[Complete Form Guide PDF](https://github.com/marriashok/ashoktechnolgies/raw/main/materials/html_forms.pdf)`,
                         type: 'text',
-                        duration: '25 mins'
+                        duration: '45 mins'
                     },
                     {
-                        title: 'CSS Video Tutorial',
-                        type: 'video',
-                        videoUrl: 'https://www.youtube.com/embed/1Rs2ND1ryYc',
-                        content: 'Watch this comprehensive guide to CSS Flexbox.',
-                        duration: '15 mins',
-                        isFree: true
+                        title: 'Semantic HTML5',
+                        content: `### Why Semantic HTML?
+Using <header>, <footer>, <main>, <article>, <section> for better SEO and accessibility.`,
+                        type: 'text',
+                        duration: '25 mins'
+                    }
+                ]
+            },
+            {
+                title: '20 Practice Projects (Hands-on)',
+                lessons: [
+                    {
+                        title: 'Project List 1-10',
+                        content: `### HTML Practice Projects (Beginner)
+1. **Personal Portfolio Page** - A basic page about yourself.
+2. **Recipe Blog** - Using lists and images.
+3. **Contact Form** - Advanced form validation.
+4. **Registration Page** - Using all input types.
+5. **Event Landing Page** - A single page with anchor links.
+6. **Product Catalog** - Tables and descriptive lists.
+7. **Business Card** - CSS properties on HTML elements.
+8. **Survey Form** - Collecting user data.
+9. **News Article Page** - Semantic structure.
+10. **Tribute Page** - Honoring a personality.
+
+**Project Source Code:** [Download Starter Files](https://github.com/marriashok/ashoktechnolgies/tree/main/projects)`,
+                        type: 'text',
+                        duration: '120 mins'
+                    },
+                    {
+                        title: 'Project List 11-20',
+                        content: `### HTML Practice Projects (Intermediate)
+11. **Pricing Table** - Comparing different plans.
+12. **Login/Signup System UI** - Front-end only.
+13. **Restaurant Menu** - Organizing items with categories.
+14. **Photography Portfolio** - Gallery and grid.
+15. **Technical Documentation Page** - Clear navigation.
+16. **Landing Page with Video** - Video and audio tags.
+17. **Simple Calculator UI** - Grid layout.
+18. **To-Do List Interface** - Clean and functional.
+19. **Newsletter Subscription** - Integrated forms.
+20. **Full Agency Website** - Combining everything learned.`,
+                        type: 'text',
+                        duration: '180 mins'
+                    }
+                ]
+            },
+            {
+                title: 'Reference Materials',
+                lessons: [
+                    {
+                        title: 'Complete HTML Cheat Sheet',
+                        content: `### Quick Reference
+Download the ultimate HTML cheat sheet for quick reference during coding.
+
+[Download PDF Cheat Sheet](https://github.com/marriashok/ashoktechnolgies/raw/main/materials/html_cheatsheet.pdf)`,
+                        type: 'text',
+                        duration: '5 mins'
                     }
                 ]
             }
